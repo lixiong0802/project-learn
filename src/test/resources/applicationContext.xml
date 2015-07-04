@@ -33,7 +33,7 @@
     <bean id="springcacheManager" class="com.sohu.cache.springcache.xmemcached.XmemCacheManager">
         <property name="namedClients">
             <map>
-                <entry key="default" value="10.11.157.142:11211 10.11.157.142:11212" />
+                <entry key="default" value="127.0.0.1:11211" />
             </map>
         </property>
         <property name="serializer">
